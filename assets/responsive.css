@@ -44,7 +44,7 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
     }
-    .content {
+    .content {  
         padding: 0;
     }
     .answer-question {

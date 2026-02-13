@@ -20,11 +20,11 @@
       }, f);
       b = d + f;
       return g;
-    };
+    };   
   }
   if (!window.cancelAnimationFrame) {
     window.cancelAnimationFrame = function (d) {
       clearTimeout(d);
-    };
+    };  
   }
-})();
+})();  

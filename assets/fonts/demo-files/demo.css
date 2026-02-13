@@ -39,7 +39,7 @@ h3 {
 .icon-container:hover .icon-name {
 	color: #000;
 }
-.icon-name {
+.icon-name {  
 	color: #aaa;
 	margin-left: 35px;
 	font-size: .8em;

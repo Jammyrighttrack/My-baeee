@@ -13,17 +13,17 @@ const Point = (function () {
 
   Point.prototype.clone = function () {
     return new Point(this.x, this.y);
-  };
-
+  };   
+   
   Point.prototype.length = function (length) {
     if (typeof length == "undefined")
       return Math.sqrt(this.x * this.x + this.y * this.y);
-
-    this.normalize();
+       
+    this.normalize();   
 
     this.x *= length;
 
-    this.y *= length;
+    this.y *= length;  
 
     return this;
   };
@@ -83,7 +83,7 @@ const Particle = (function () {
 
   Particle.prototype.draw = function (context, image) {
     function ease(t) {
-      return --t * t * t + 1;
+      return --t * t * t + 1;  
     }
 
     var size = image.width * ease(this.age / settings.particles.duration);
@@ -176,7 +176,7 @@ const ParticlePool = (function () {
   };
 
   return ParticlePool;
-})();
+})();  
 
 /*
  * Putting it all together
